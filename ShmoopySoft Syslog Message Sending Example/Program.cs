@@ -1,7 +1,7 @@
 ﻿/*
  * MIT License
  * 
- * Copyright(c) 2020 ShmoopySoft
+ * Copyright(c) 2020 ShmoopySoft (Pty) Ltd
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
  * associated documentation files (the "Software"), to deal in the Software without restriction, including 
@@ -158,16 +158,16 @@ namespace ShmoopySoft_Syslog_Message_Sending_Example
                     var key2 = "myeventSource";
                     var value2 = "My Application";
 
-                    // Set the PROCID and MSGID.
-                    string procId = "My ProcId";
-                    string msgId = "My MsgId";
-
                     // Create a new StructuredDataElement list.
                     var structuredDataElements = new List<StructuredDataElement>
                     {
                         new StructuredDataElement(sdi1, new Dictionary<string, string> {{key1, value1}}),
                         new StructuredDataElement(sdi2, new Dictionary<string, string> {{key2, value2}}),
                     };
+
+                    // Set the PROCID and MSGID.
+                    string procId = "My ProcId";
+                    string msgId = "My MsgId";
 
                     // Create a new Syslog message (RFC5424).
                     SyslogMessage rfc5424SyslogMessage = new SyslogMessage(DateTimeOffset.Now,          // TIMESTAMP
