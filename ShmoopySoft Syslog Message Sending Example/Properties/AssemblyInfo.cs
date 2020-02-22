@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ShmoopySoft Syslog Message Sending Example")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Sends an RFC3164 and RFC5424 message to a Syslog Server using UDP with the SyslogNet open source library for .NET.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("ShmoopySoft (Pty) Ltd")]
 [assembly: AssemblyProduct("ShmoopySoft Syslog Message Sending Example")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Copyright © 2020 by ShmoopySoft (Pty) Ltd")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
