@@ -6,7 +6,7 @@ For this solution to work, it is necessary to add a SyslogNet.Client reference t
 
 ## Getting Started
 
-In order to send messages to Syslog, you must have a Syslog Server setup and configured. You will need its IP address and UDP Port number to send messages.
+In order to send messages to Syslog, you must have a Syslog Server setup and configured. You will need its IP address and UDP port number to send messages.
 
 ### Running
 
