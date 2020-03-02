@@ -202,7 +202,7 @@ namespace ShmoopySoft_Syslog_Message_Sending_Example
                     // Display a confirmation.
                     Console.WriteLine("RFC5424 message was successfully sent to Syslog Server :-)");
 
-                    Console.ReadKey();
+                    Console.ReadKey(true);
                 }
             }
             catch (Exception ex)
@@ -212,7 +212,7 @@ namespace ShmoopySoft_Syslog_Message_Sending_Example
                 Console.Write(Environment.NewLine);
                 Console.WriteLine(ex.ToString());
 
-                Console.ReadKey();
+                Console.ReadKey(true);
             }
         }
     }
