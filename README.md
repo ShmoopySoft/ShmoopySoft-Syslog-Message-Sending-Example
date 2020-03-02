@@ -2,6 +2,8 @@
 
 A Visual Studio 2019 solution written in C# to demonstrate sending messages to a Syslog Server using the SyslogNet open source library for .NET. Supports both RFC 3164 and RFC 5424 Syslog standards.
 
+For this solution to work, it is necessary to add a SyslogNet.Client reference to project.
+
 ## Getting Started
 
 In order to send messages to Syslog, you must have a Syslog Server setup and configured. You will need its IP address and UDP Port number to send messages.
