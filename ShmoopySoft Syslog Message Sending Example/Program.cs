@@ -77,12 +77,20 @@ namespace ShmoopySoft_Syslog_Message_Sending_Example
         }
     }
 
+    /// <summary>
+    /// The Program class's responsibility is to provide an entry point for the application.
+    /// </summary>
     class Program
     {
         private const string SyslogServer = "127.0.01";             // <<<!!! INSERT YOUR SYSLOG SERVER IP ADDRESS HERE !!!>>>
         private const int SyslogPort = 514;                         // <<<!!! INSERT YOUR SYSLOG SERVER PORT HERE !!!>>>
         private const string AppName = "My Event Log";              // <<<!!! INSERT YOUR SYSLOG APP-NAME HERE !!!>>>
 
+        /// <summary>
+        /// C# applications have an entry point called the Main Method. 
+        /// It is the first method that gets invoked when an application starts.
+        /// </summary>
+        /// <param name="args">Command line arguments as string type parameters</param>
         static void Main(string[] args)
         {
             try
